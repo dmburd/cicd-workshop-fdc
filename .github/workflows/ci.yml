@@ -42,3 +42,6 @@ jobs:
           - name: Run unit and widget tests
             run: flutter test
             
+          # Update gcloud CLI to the latest version.
+          - name: Update gcloud CLI
+            run: gcloud components update

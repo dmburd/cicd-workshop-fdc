@@ -28,6 +28,10 @@ jobs:
           # Run unit and widget tests in a Flutter project.
           - name: Run unit and widget tests
             run: flutter test
+
+          # Update gcloud CLI to the latest version.
+          - name: Update gcloud CLI
+            run: gcloud components update
             
           # Authenticates in GCP with the provided user credentials.
           # Provides secure, temporary credentials for GCP.
