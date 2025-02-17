@@ -37,3 +37,8 @@ jobs:
           # Checks your project for code issues, potential errors, and enforces best practices.
           - name: Analyze project source
             run: flutter build web
+
+          # Run unit and widget tests in a Flutter project.
+          - name: Run unit and widget tests
+            run: flutter test
+            
